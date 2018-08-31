@@ -166,7 +166,6 @@ int main() {
 	s.push(startState);
 	seen.insert(startState);
 
-
 	while (!s.empty()) {
 		State currState = s.top();
 		s.pop();
@@ -273,7 +272,7 @@ int main() {
 				}
 			}
 
-			cout << "Number of reachable and indistinguishable states: " << newNumIndistStates << endl;
+			cout << "Number of reachable and indistinguishable states: " << newNumIndistStates + 1 << endl;
 			break;
 		}
 
