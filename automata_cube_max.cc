@@ -255,9 +255,7 @@ int main() {
 				}
 			}
 
-			// numIndistStates is actually the number of indistinguishable states - 1 (it is the largest 
-			// group number).
-			cout << "Number of reachable and indistinguishable states: " << newNumIndistStates + 1 << endl;
+			cout << "Number of reachable and indistinguishable states: " << newNumIndistStates << endl;
 			return 0;
 		}
 
